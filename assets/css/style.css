@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box {
+    border: 1px solid orange;
+    width: 40px;
+    height: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.ff-400 {
+    font-family: 'poppins';
+    font-weight: 400;
+
+}
+
+.ff-500 {
+    font-family: 'poppins';
+    font-weight: 500;
+
+}
+
+.ff-600 {
+    font-family: 'poppins';
+    font-weight: 600;
+
+}
+
+.color {
+    color: #ff5300;
+}
+
+.color-2 {
+    color: #7B7B7B;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap {
+    gap: 7px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.cards {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    height: 350px;
+    width: 270px;
+    left: 0px;
+    top: 205px;
+    border-radius: 0px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.cards:hover .icon-header{
+    right: 0;
+
+}
+
+.text-color {
+    color: #ff5300;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.parent {
+    border: 1px solid orange;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+
+}
+.relative{
+    position: relative;
+}
+
+.position{
+    position: absolute;
+}
+
+.icon-header{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right:-40px;
+}
+
+.overflow{
+    overflow: hidden ;
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.icon-box:not(:last-child){
+    margin-bottom: 6px;
+}
+.icon-box:hover{
+    background-color: #ff5300;
+
+}
+
+.icon-box:hover svg path{
+    fill:#FFFFFF
+}
+.box1 {
+    height: 40px;
+    width: 40px;
+
+}
+
+.box2 {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+@media (max-width:1320px) {
+    .col-3_xl {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media(max-width:1024px) and (min-width:992px) {
+    .col-4_lg {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
